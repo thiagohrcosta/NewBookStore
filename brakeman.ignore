@@ -1,0 +1,9 @@
+{
+  "ignored_warnings": [
+    {
+      "warning_type": "Unmaintained Dependency",
+      "check_name": "EOLRuby",
+      "message": "Support for Ruby 3.1.2 ended on 2025-03-31"
+    }
+  ]
+}
