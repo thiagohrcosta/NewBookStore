@@ -1,0 +1,11 @@
+{
+  "ignored_warnings": [
+    {
+      "warning_type": "Cross-Site Request Forgery",
+      "warning_code": 2,
+      "fingerprint": "abc123...",
+      "check_name": "CheckCSRFTokenForgeryCVE",
+      "message": "..."
+    }
+  ]
+}
