@@ -6,5 +6,5 @@ class User < ApplicationRecord
          :jwt_authenticatable,
          jwt_revocation_strategy: JwtDenylist
 
-  enum role: { customer: 0, admin: 1 }
+  enum :role, { customer: 0, admin: 1 }
 end
