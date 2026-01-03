@@ -28,7 +28,8 @@ class Api::SessionsController < ApplicationController
       message: 'Login successful',
       user: {
         id: user.id,
-        email: user.email
+        email: user.email,
+        role: user.role
       }
     }
   end
